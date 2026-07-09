@@ -9,7 +9,7 @@ name = "pydantic-supervisor"
 authors = [
     {name = "the pydantic-supervisor authors", email = "t.paine154@gmail.com"},
 ]
-description = "Pydantic models for supervisor"
+description = "Alias for supervisor-pydantic"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 version = "0.1.0"
@@ -29,9 +29,7 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 
-dependencies = [
-    "supervisor-pydantic",
-]
+dependencies = []
 
 [project.optional-dependencies]
 develop = [
@@ -54,8 +52,8 @@ develop = [
 [project.scripts]
 
 [project.urls]
-Repository = "https://github.com/airflow-laminar/pydantic-supervisor"
-Homepage = "https://github.com/airflow-laminar/pydantic-supervisor"
+Repository = "https://github.com/tkp-aliases/pydantic-supervisor"
+Homepage = "https://github.com/tkp-aliases/pydantic-supervisor"
 
 [tool.bumpversion]
 current_version = "0.1.0"
