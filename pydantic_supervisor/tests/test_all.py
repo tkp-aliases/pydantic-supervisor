@@ -1,4 +1,4 @@
-from pydantic_supervisor import *  # noqa
+from pydantic_supervisor import *
 
 
 def test_all():
